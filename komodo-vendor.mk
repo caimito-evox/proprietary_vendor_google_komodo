@@ -378,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/komodo/proprietary/product/etc/CarrierSettings/zeop_re.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/zeop_re.pb
 
 PRODUCT_COPY_FILES += \
-    vendor/google/komodo/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
     vendor/google/komodo/proprietary/product/etc/felica/common.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/common.cfg \
     vendor/google/komodo/proprietary/product/etc/felica/mfm.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfm.cfg \
     vendor/google/komodo/proprietary/product/etc/felica/mfs.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfs.cfg \
@@ -387,41 +386,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/komodo/proprietary/product/etc/firmware/music_detector.sound_model_2:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_2 \
     vendor/google/komodo/proprietary/product/etc/firmware/music_detector.sound_model_tflite:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_tflite \
     vendor/google/komodo/proprietary/product/etc/permissions/androidx.camera.extensions.impl.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/androidx.camera.extensions.impl.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.omadm.service.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/com.android.sdm.plugins.connmo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.connmo.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/com.android.sdm.plugins.dcmo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.dcmo.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/com.android.sdm.plugins.diagmon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.diagmon.xml \
     vendor/google/komodo/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.hardwareinfo.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.apn.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/com.verizon.services.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.services.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/features-verizon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/features-verizon.xml \
-    vendor/google/komodo/proprietary/product/etc/permissions/privapp-permissions-google-p-lineage.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p-lineage.xml \
+    vendor/google/komodo/proprietary/product/etc/permissions/privapp-permissions-google-p-evolution.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p-evolution.xml \
     vendor/google/komodo/proprietary/product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/allowlist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.android.omadm.service.xml \
     vendor/google/komodo/proprietary/product/etc/sysconfig/allowlist_com.shannon.imsservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.shannon.imsservice.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/firproximity.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/firproximity.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nexus.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2017.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2017.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2018.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2019.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2021_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021_midyear.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2022.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2022_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022_midyear.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2023.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2023.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2023_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2023_midyear.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2024.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2024.xml \
-    vendor/google/komodo/proprietary/product/etc/sysconfig/pixel_experience_2024_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2024_midyear.xml \
     vendor/google/komodo/proprietary/system_ext/etc/default-permissions/default-permissions-euiccpixel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-euiccpixel.xml \
     vendor/google/komodo/proprietary/system_ext/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc \
     vendor/google/komodo/proprietary/system_ext/etc/init/vendor.google.whitechapel.audio.hal.parserservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.google.whitechapel.audio.hal.parserservice.rc \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/google/komodo/proprietary/system_ext/etc/permissions/com.android.omadm.radioconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.omadm.radioconfig.xml \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/com.android.qns.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.qns.xml \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/com.google.android.camera.experimental2024_system.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.camera.experimental2024_system.xml \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/com.google.android.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.camera.extensions.xml \
@@ -432,17 +404,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/com.samsung.slsi.telephony.oemril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.samsung.slsi.telephony.oemril.xml \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/com.shannon.imsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.shannon.imsservice.xml \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/com.shannon.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.shannon.rcsservice.xml \
-    vendor/google/komodo/proprietary/system_ext/etc/permissions/google-ril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/google-ril.xml \
     vendor/google/komodo/proprietary/system_ext/etc/permissions/oemrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/oemrilhook.xml \
-    vendor/google/komodo/proprietary/system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se-lineage.xml \
-    vendor/google/komodo/proprietary/system_ext/etc/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vzw_mvs_permissions.xml \
-    vendor/google/komodo/proprietary/system_ext/etc/public.libraries-google.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-google.txt \
+    vendor/google/komodo/proprietary/system_ext/etc/permissions/privapp-permissions-google-se-evolution.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se-evolution.xml \
     vendor/google/komodo/proprietary/system_ext/priv-app/EuiccSupportPixel-P23/Felica_Tag_66_Changer.apdu:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel-P23/Felica_Tag_66_Changer.apdu \
     vendor/google/komodo/proprietary/system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel-P23/esim-full-v1.img
 
 PRODUCT_PACKAGES += \
-    libdmengine \
-    libdmjavaplugin \
     com.google.edgetpu_app_service-V4-ndk \
     com.google.edgetpu_vendor_service-V2-ndk \
     libedgetpu_dba.google \
@@ -459,12 +426,9 @@ PRODUCT_PACKAGES += \
     ConnMO \
     DCMO \
     DMService \
-    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
-    DevicePersonalizationPrebuiltPixel2024-aiai_20240329.00_RC16 \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
-    HealthIntelligencePrebuilt-1762 \
     HotwordEnrollmentOKGoogleFUSIONPro \
     HotwordEnrollmentXGoogleFUSIONPro \
     OemDmTrigger \
@@ -493,7 +457,6 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.experimental2024_system \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
-    google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service.xml \
     vendor.google.whitechapel.audio.hal.parserservice.xml \
@@ -501,8 +464,6 @@ PRODUCT_PACKAGES += \
     vendor.google.whitechapel.audio.hal.parserservice
 
 PRODUCT_PACKAGES += \
-    product_priv-app_DMService_lib_arm64_libdmengine_so \
-    product_priv-app_DMService_lib_arm64_libdmjavaplugin_so \
     system_ext_priv-app_PixelDisplayService_lib_arm64_libpixeldisplaymanager_jni_so
 
 PRODUCT_COPY_FILES += \
